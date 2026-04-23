@@ -1,0 +1,99 @@
+/* ===================================== */
+/* MOBILE FIRST DESIGN */
+/* Default styles in style.css are mobile */
+/* Below are enhancements for larger screens */
+/* ===================================== */
+
+
+/* =============================== */
+/* Tablets (768px and above) */
+/* =============================== */
+@media (min-width: 768px) {
+
+    header {
+        padding: 1rem 4rem;
+    }
+
+    nav a {
+        margin-left: 30px;
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding: 3rem;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    section {
+        padding: 5rem 4rem;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+
+/* =============================== */
+/* Small Laptops (1024px and above) */
+/* =============================== */
+@media (min-width: 1024px) {
+
+    .hero {
+        height: 95vh;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+/* =============================== */
+/* Large Screens (1200px and above) */
+/* =============================== */
+@media (min-width: 1200px) {
+
+    section {
+        max-width: 1200px;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .internship-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .internship-container {
+        grid-template-columns: 1fr;
+    }
+}
+

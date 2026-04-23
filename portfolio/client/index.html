@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hemanth | Full Stack Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* Navbar */
+header{
+    background:#111;
+    color:white;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+nav a:hover{
+    color:#00adb5;
+}
+
+/* Hero */
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 10%;
+    background:linear-gradient(135deg,#00adb5,#0077b6);
+    color:white;
+    flex-wrap:wrap;
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-content h1{
+    font-size:3rem;
+}
+
+.hero-content span{
+    color:#ffd369;
+}
+
+.hero-content p{
+    margin:20px 0;
+    font-size:1.2rem;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 25px;
+    background:white;
+    color:#0077b6;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.hero-image{
+    flex:1;
+    text-align:center;
+}
+
+.hero-image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    box-shadow:0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* Sections */
+section{
+    padding:80px 10%;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:30px;
+    font-size:2.5rem;
+    color:#0077b6;
+}
+
+/* Grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+        padding-top:50px;
+    }
+    .hero-image{
+        margin-top:40px;
+    }
+}
+
+
+.internship {
+    padding: 80px 20px;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+.internship h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.internship-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.internship-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.internship-card:hover {
+    transform: translateY(-10px);
+}
+
+.internship-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.internship-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.internship-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.internship-card a {
+    display: inline-block;
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>Hemanth</h2>
+<nav>
+<a href="#">Home</a>
+<a href="about">About</a>
+<a href="#projects">Projects</a>
+<a href="#certificates">Certificates</a>
+<a href="#internship">Internship</a>
+<a href="#contact">Contact</a>
+
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<h1>Hi, I'm <span>Hemanth</span> 👋</h1>
+<p>Full Stack Developer | Engineering Student | Coder | Tech Enthusiast</p>
+<a href="#projects" class="btn">View My Work</a>
+</div>
+
+<div class="hero-image">
+<img src="file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/profile/profile.jpg/profile.jpeg" alt="Hemanth Profile">
+</div>
+</section>
+
+<!--ABOUT -->
+<section id="About">
+<section id="about" class="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>INTRODUCTION</h2>
+            <p>
+         I'm Hemanth J R, an Engineering student passionate about software development
+        and intelligent systems. I work with Java, Python, JavaScript, HTML, CSS, and PHP,
+        and have strong knowledge of Computer Networks, Cloud Computing, and Operating Systems.
+        I am particularly interested in AI, Machine Learning, Deep Learning, NLP, and LLMs,
+        aiming to build scalable and innovative technology solutions.
+            </p>
+        </div>
+    </div>
+</section>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section id="Education">
+<h2>Education</h2>
+<div class="grid">
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/Screenshot%202025-09-27%20160026.png alt="LOGO 1">
+<h3>PRESIDENCY UNIVERSITY-BENGALORE</h3>
+<p>B.tech Computer Sctence spl AI and ML</p>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20234901.png alt="logo 2">
+<h3>SDM Pre-university-UJIRE MANGALORE</h3>
+<p>Science (PCMB).</p>
+</div>
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20235547.png alt="Project 3">
+<h3>JSS HIGH SCHOOL-SUTTUR MYSORE</h3>
+<p>SSLC (KSEEB) .</p>
+</div>
+</section>
+
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="grid">
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/projects/project1/Library_man_sys/Screenshot%202025-11-18%20215101.png alt="Project 1">
+<h3>Library Management System</h3>
+<p>HTML | CSS | PHP.</p>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/projects/project2/Arduino/ardiuno.jpeg alt="Project 2">
+<h3>Innovative project using Arduino</h3>
+<p>IOT | Python_code | Arduino.</p>
+</div>
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/projects/project3/raspberry_pi/raspberry_pi.jpeg alt="Project 3">
+<h3>Innovative project using Rospberry pi</h3>
+<p>IOT | Python_code | Raspberry pi .</p>
+</div>
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/projects/project4/Object%20Detection%20using%20TensorFlow.png alt="Project 4">
+<h3> Object Detection using TensorFlow</h3>
+<p>AI using python | Object Detection | python_code.</p>
+
+</div>
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/projects/project5/Vision%20Transformer%20(ViT).png alt="Project 5">
+<h3>Vision Transformer (ViT)</h3>
+<p>AI using python | vit |python_code.</p>
+</div>
+</section>
+
+
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+<h2>Certificates</h2>
+<div class="grid">
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20225630.png alt="Certificate">
+<h3>codec technology internship completion certificate</h3>
+<a href=file:///C:/Users/hp/certificates/codec_completion_certificate.pdf target="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20225847.png alt="Certificate">
+<h3>Coincent.ai internship completion certificate</h3>
+<a href=file:///C:/Users/hp/certificates/coincent.ai_completion_letter.pdf target="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20230206.png alt="Certificate">
+<h3>Coincent.ai internship certificate</h3>
+<a href=file:///C:/Users/hp/certificates/coincent.ai_internship_certificate.pdftarget="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20230525.png alt="Certificate">
+<h3>Coincent.ai participation certificate</h3>
+<a href=file:///C:/Users/hp/certificates/Coincent.ai_particepate.pdf target="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20230712.png alt="Certificate">
+<h3>Edureka Certificate</h3>
+<a href=file:///C:/Users/hp/certificates/Edureka%20-%20Certificate.pdf target="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20231020.png alt="Certificate">
+<h3>Machine learning Using python certificate</h3>
+<a href=file:///C:/Users/hp/certificates/machine%20learning%20using%20python%20cert.pdf target="_blank" class="btn">View</a>
+</div>
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20231444.png alt="Certificate">
+<h3>Natural Language Processing certificate</h3>
+<a href=file:///C:/Users/hp/certificates/NLP%20CERTIFICATE.pdf target="_blank" class="btn">View</a>
+</div>
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20233129.png alt="Certificate">
+<h3>python 3.0x certificate</h3>
+<a href=file:///C:/Users/hp/certificates/python3.x%20certificate.pdf target="_blank" class="btn">View</a>
+</div>
+ 
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20233742.png alt="Certificate">
+<h3>SQl certificate</h3>
+<a href=file:///C:/Users/hp/certificates/sql%20certificate.pdf target="_blank" class="btn">View</a>
+</div>    
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20232233.png alt="Certificate">
+<h3>pinnacle Internship Certificate</h3>
+<a href=file:///C:/Users/hp/certificates/pinacle_CERTIFICATE.pdf target="_blank" class="btn">View</a>
+</div>
+ 
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20232849.png alt="Certificate">
+<h3>scaller Python Mastering certificate</h3>
+<a href=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20232233.png target="_blank" class="btn">View</a>
+</div>
+
+
+<div class="card">
+<img src=file:///C:/Users/hp/OneDrive/%E5%9B%BE%E7%89%87/Screenshots/Screenshot%202026-02-18%20233526.png alt="Certificate">
+<h3>Skillcraft Technology Internship certificate</h3>
+<a hreffile:///C:/Users/hp/certificates/skillcraft_certificate%20.pdf target="_blank" class="btn">View</a>
+</div>  
+</section>
+
+<!-- INTERNSHIP -->
+<section id="internship">
+ <h2>Internships</h2>
+ <div class="grid">
+
+<div class="card"> 
+<h3>Ai using python Intern</h3> 
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Screenshot%202026-02-17%20230017.png alt="logo"> 
+<p>coincent.ai - 2024</p>
+ <a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Coincent.ai_offer_letter%20.pdf target="_blank" class="btn">View Offer Letter </a> 
+</div> 
+
+<div class="card"> 
+<h3>Web Development Intern</h3>
+ <img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Screenshot%202025-10-26%20130319.png alt="logo">
+<p>SkillCraft Technology - 2025</p>
+ <a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/skillcraftOffer%20Letter.pdf target="_blank" class="btn"> 
+View Offer Letter </a> 
+</div> 
+
+<div class="card"> 
+<h3>Data Science Intern</h3>
+ <img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Screenshot%202026-02-18%20000327.png alt="logo">
+<p>CodeSoft - 2025</p>
+ <a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/codsot_%20Offter_Letter%20.pdf target="_blank" class="btn"> 
+View Offer Letter </a> 
+</div> 
+
+
+<div class="card"> 
+<h3>Ai using python Intern</h3> 
+<img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Screenshot%202025-10-26%20122922.png alt="logo">
+<p>Pinnacle labs - 2025</p>
+ <a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/pinnacle_offer_letter%20-%20Copy.pdf target="_blank" class="btn"> 
+View Offer Letter </a>
+ </div>
+
+ <div class="card">
+ <h3> Full stack Web Development Intern</h3>
+ <img src=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/Screenshot%202026-02-17%20225827.png alt="logo">
+ <p>Codec technologies- 2026</p> 
+<a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/assets/images/internship/codec_offer_letter.pdf target="_blank" class="btn">
+View Offer Letter </a>
+ </div>
+</section>
+
+<section id="concact">
+ <h2>concact</h2>
+<a href=file:///C:/Users/hp/OneDrive/Desktop/portfolio/client/contact.html class="btn">conctact</a>
+ </div>
+</section>
+
+<!-- Resume Download -->
+<section>
+    <h2>Resume</h2>
+    <div class="grid">
+<div class="btn">  
+        <!-- Replace resume.pdf with your actual resume file -->
+        <a href=file:///C:/xampp/htdocs/online_ordering_system/resume.html download class="btn">Download Resume</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Hemanth J R | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
